@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css
+  ">
+  <link rel="stylesheet" href="./style.css">
+  <title>VINI-SAN</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand logo" href="#">VINI-SAN</a>
+        <button class="navbar-toggler collapse d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacao" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuNavegacao">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre Nós</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#eventos">Eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cardapio">Cardápio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="container-expanded-md">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/slide-01_resized.jpg" class="d-block w-100" alt="slide-01">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/slide-02_resized.jpg" class="d-block w-100 banner" alt="slide-02">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/slide-03_resized.jpg" class="d-block w-100" alt="slide-03">
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </section>
+  <section class="container mt-5 mb-5 " id="sobre">
+    <div class="row  p-0">
+      <div class="col-lg-6 d-flex justify-content-center">
+        <img src="./img/sobre-nos.jpg" class="img-fluid mb-3" alt="imagem do restaurante">
+      </div>
+      <div class="col-lg-6 d-flex bg-light justify-content-center align-items-center mb-3">
+        <div class="p-4">
+          <div class="detalhe mt-5 mb-2"></div>
+          <h1 class="logo">SOBRE NÓS</h1>
+          <p class="mb-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit,
+            perferendis optio.
+            Rem animi blanditiis dolores? Totam placeat modi magnam iure expedita perspiciatis id ipsum, dignissimos sit ipsam incidunt harum odit!</p>
+          <a href="#contato" class="contato mt-5">CONTATO</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-light" id="eventos">
+    <div class="container text-center pt-5 pb-5">
+      <h2 class="pb-3">EVENTOS</h2>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-4 mb-3 box">
+          <img src="./img/SASHIMI-EVENTOS.jpg" alt="" class="d-block w-100 ">
+          <div class="p-4 back-eventos">
+            <h3>Dia do <span class="red">SASHIMI<span></h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum necessitatibus.</p>
+            <a href="" class="data">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check-fill" viewBox="0 0 16 16">
+                <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-5.146-5.146-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
+              </svg>
+              01/05
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <img src="./img/temaki.jpg" alt="" class="d-block w-100 ">
+          <div class="p-4 back-eventos">
+            <h3>Dia do <span class="red">TEMAKI<span></h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum necessitatibus.</p>
+            <a href="" class="data">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check-fill" viewBox="0 0 16 16">
+                <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-5.146-5.146-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
+              </svg>
+              01/06
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="./img/guioza.jpg" alt="" class="d-block w-100">
+          <div class="p-4 back-eventos">
+            <h3>Dia do <span class="red">GUIOZA<span></h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae dolorum necessitatibus.</p>
+            <a href="" class="data">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-check-fill " viewBox="0 0 16 16">
+                <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-5.146-5.146-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 0 1 .708-.708L7.5 10.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
+              </svg>
+              01/07
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="cardapio" class="text-center container mt-5 mb-5">
+    <h2 class="p-4">NOSSO CARDÁPIO</h2>
+    <div class="row back-event">
+      <aside class="col-md-2">
+        <nav class="nav nav-pills flex-column nav-cardapio">
+          <button type="button" data-bs-toggle="tab" data-bs-target="#sashimi" class="nav-link  text-colored mb-2 active">SASHIMI</button>
+          <button type="button" data-bs-toggle="tab" data-bs-target="#temaki" class="nav-link text-colored mb-2">TEMAKI</button>
+          <button type="button" data-bs-toggle="tab" data-bs-target="#guioza" class="nav-link text-colored mb-2">GUIOZA</button>
+          <button type="button" data-bs-toggle="tab" data-bs-target="#saque" class="nav-link text-colored mb-2">SAQUE</button>
+        </nav>
+      </aside>
+      <div class="col-md-10 bg-light">
+        <div class="tab-content">
+          <div class="tab-pane active" id="sashimi">
+            <div class="row p-5">
+              <div class="col-lg-3">
+                <img src="./img/SASHIMI-EVENTOS.jpg" alt="" class="d-block w-100 radius-img">
+                <div class="bg-cardapio">
+                  <h3><span class="red-cardapio">SASHIMI</span></h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque.
+                  <p class="preco"><em>R$ 20,00</em></p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <img src="./img/SASHIMI-EVENTOS.jpg" alt="" class="d-block w-100 radius-img">
+                <div class="bg-cardapio">
+                  <h3><span class="red-cardapio">SASHIMI</span></h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque.
+                  <p class="preco"><em>R$ 20,00</em></p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <img src="./img/SASHIMI-EVENTOS.jpg" alt="" class="d-block w-100 radius-img">
+                <div class="bg-cardapio">
+                  <h3><span class="red-cardapio">SASHIMI</span></h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque.
+                  <p class="preco"><em>R$ 20,00</em></p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <img src="./img/SASHIMI-EVENTOS.jpg" alt="" class="d-block w-100 radius-img">
+                <div class="bg-cardapio">
+                  <h3><span class="red-cardapio">SASHIMI</span></h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque.
+                  <p class="preco"><em>R$ 20,00</em></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="temaki">
+            <div class="row p-5">
+              <div class="col-lg-3">
+                <img src="./img/temaki-eventos.jpg" alt="" class="d-block w-100 radius-img">
+                <div class="bg-cardapio">
+                  <h3><span class="red-cardapio">TEMAKI</span></h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque.
+                  <p class="preco"><em>R$ 20,00</em></p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <img src="./img/temaki-eventos.jpg" alt="" class="d-block w-100 radius-img">
+                <div class="bg-cardapio">
+                  <h3><span class="red-cardapio">TEMAKI</span></h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque.
+                  <p class="preco"><em>R$ 20,00</em></p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <img src="./img/temaki-eventos.jpg" alt="" class="d-block w-100 radius-img">
+                <div class="bg-cardapio">
+                  <h3><span class="red-cardapio">TEMAKI</span></h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque.
+                  <p class="preco"><em>R$ 20,00</em></p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <img src="./img/temaki-eventos.jpg" alt="" class="d-block w-100 radius-img">
+                <div class="bg-cardapio">
+                  <h3><span class="red-cardapio">TEMAKI</span></h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque.
+                  <p class="preco"><em>R$ 20,00</em></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="guioza">
+            <div class="row p-5">
+              <div class="col-lg-3">
+                <img src="./img/guioza.jpg" alt="" class="d-block w-100 radius-img">
+                <div class="bg-cardapio">
+                  <h3><span class="red-cardapio">GUIOZA</span></h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque.
+                  <p class="preco"><em>R$ 20,00</em></p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <img src="./img/guioza.jpg" alt="" class="d-block w-100 radius-img">
+                <div class="bg-cardapio">
+                  <h3><span class="red-cardapio">GUIOZA</span></h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque.
+                  <p class="preco"><em>R$ 20,00</em></p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <img src="./img/guioza.jpg" alt="" class="d-block w-100 radius-img">
+                <div class="bg-cardapio">
+                  <h3><span class="red-cardapio">GUIOZA</span></h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque.
+                  <p class="preco"><em>R$ 20,00</em></p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <img src="./img/guioza.jpg" alt="" class="d-block w-100 radius-img">
+                <div class="bg-cardapio">
+                  <h3><span class="red-cardapio">GUIOZA</span></h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque.
+                  <p class="preco"><em>R$ 20,00</em></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="saque">
+            <div class="row p-5">
+              <div class="col-lg-3">
+                <img src="./img/saque.jpg" alt="" class="d-block w-100 radius-img">
+                <div class="bg-cardapio">
+                  <h3><span class="red-cardapio">SAQUÊ</span></h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque.
+                  <p class="preco"><em>R$ 20,00</em></p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <img src="./img/saque.jpg" alt="" class="d-block w-100 radius-img">
+                <div class="bg-cardapio">
+                  <h3><span class="red-cardapio">SAQUÊ</span></h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque.
+                  <p class="preco"><em>R$ 20,00</em></p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <img src="./img/saque.jpg" alt="" class="d-block w-100 radius-img">
+                <div class="bg-cardapio">
+                  <h3><span class="red-cardapio">SAQUÊ</span></h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque.
+                  <p class="preco"><em>R$ 20,00</em></p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <img src="./img/saque.jpg" alt="" class="d-block w-100 radius-img">
+                <div class="bg-cardapio">
+                  <h3><span class="red-cardapio">SAQUÊ</span></h3>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque.
+                  <p class="preco"><em>R$ 20,00</em></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <footer class="bg-footer text-white text-center" id="contato">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-md-3 col-6">
+          <h4 class="h6">LOCAL</h4>
+          <a href=https://www.google.com/maps/place/T%C3%B3quio,+Jap%C3%A3o/@35.48847,137.5263065,7z/data=!3m1!4b1!4m6!3m5!1s0x605d1b87f02e57e7:0x2e01618b22571b89!8m2!3d35.6761919!4d139.6503106!16zL20vMDdkZms target="_blank"> <img src="./img/mapa.png" alt="" class="d-block w-100 radius-img"></a>
+        </div>
+        <div class="col-md-3 col-6">
+          <h4 class="h6">VINI-SAN</h4>
+          <ul class="list-unstyled">
+            <li><a href="#sobre" class="text-a">Sobre</a></li>
+            <li><a href="#eventos" class="text-a">Eventos</a></li>
+            <li><a href="#cardapio" class="text-a">Cardápio</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4 class="h6">DADOS DE CONTATO</h4>
+          <ul class="list-unstyled text-secondary">
+            <li>vini-san@gmail.com.br</li>
+            <li>21 99999-9999</li>
+            <li>De Seg. à Sex. das 8h às 18h</li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h4 class="h6">REDES SOCIAIS</h4>
+          <ul class="list-unstyled">
+            <li><a class="btn btn-outline-secondary btn-sm btn-block mb-2" href="#" style="max-width: 140px">Facebook</a></li>
+            <li><a class="btn btn-outline-secondary btn-sm btn-block mb-2" href="#" style="max-width: 140px">Twitter</a></li>
+            <li><a class="btn btn-outline-secondary btn-sm btn-block mb-2" href="#" style="max-width: 140px">Youtube</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="bg-footerr text-center py-3">
+      <p class="mb-0">VINI-SAN © 2017. Alguns direitos reservados.</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js
+  "></script>
+</body>
+
+</html>

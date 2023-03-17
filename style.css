@@ -1,0 +1,192 @@
+body {
+  font-family: "NotoSansJP";
+}
+
+.logo {
+  font-weight: bolder;
+  font-size: 36px;
+}
+
+.navbar-nav li a {
+  font-weight: 400;
+  color: #141414;
+  font-size: 20px;
+}
+
+.navbar-nav li a:hover {
+  color: brown;
+  font-size: 23px;
+}
+/* BOTÃO MENU RESPONSIVO*/
+.navbar-toggler {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  transition: 0.5s ease-in-out;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
+
+.navbar-toggler span {
+  margin: 0;
+  padding: 0;
+}
+
+.toggler-icon {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background: #000;
+  border-radius: 1px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+.middle-bar {
+  margin-top: 0px;
+}
+
+.navbar-toggler .top-bar {
+  margin-top: 0px;
+  transform: rotate(135deg);
+}
+
+.navbar-toggler .middle-bar {
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.navbar-toggler .bottom-bar {
+  margin-top: 0px;
+  transform: rotate(-135deg);
+}
+
+.navbar-toggler.collapsed .top-bar {
+  margin-top: -20px;
+  transform: rotate(0deg);
+}
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.navbar-toggler.collapsed .bottom-bar {
+  margin-top: 20px;
+  transform: rotate(0deg);
+}
+
+/* BANNER*/
+img .banner {
+  width: 1000px;
+}
+/* sobre*/
+.detalhe {
+  height: 8px;
+  width: 40px;
+  background-color: brown;
+}
+
+.contato {
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 4px;
+  background-color: brown;
+}
+
+.contato:hover {
+  background-color: #141414;
+}
+
+.background-container {
+  background-color: #000;
+}
+
+.back-eventos {
+  background-color: #fff;
+}
+.nosso {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.red {
+  color: brown;
+}
+
+.data {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 4px;
+  background-color: brown;
+}
+
+.data:hover {
+  background-color: #141414;
+}
+svg {
+  padding-right: 5px;
+  padding-bottom: 2px;
+}
+.carousel {
+  padding-top: 80px;
+}
+
+.text-colored {
+  color: #141414;
+  background-color: brown;
+  padding: 15px 20px;
+}
+
+.text-colored:hover {
+  color: #fff;
+}
+
+.text-colored .active {
+  background-color: #000;
+}
+
+.nav-cardapio .nav-link.active {
+  background-color: brown;
+}
+
+.nav-cardapio .nav-link:hover {
+  background-color: #141414;
+}
+
+.radius-img {
+  border-radius: 4px;
+}
+.red-cardapio {
+  font-size: 20px;
+  color: brown;
+  font-weight: bold;
+}
+.bg-cardapio {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.bg-footer {
+  background-color: #141414;
+}
+
+.bg-footerr {
+  background-color: brown;
+}
+
+.text-a {
+  color: #fff;
+  text-decoration: none;
+}
