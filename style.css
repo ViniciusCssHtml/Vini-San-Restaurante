@@ -4,7 +4,9 @@ body {
   font-family: "Roboto", sans-serif;
   font-family: "Noto Serif Japanese";
 }
-
+html {
+  scroll-behavior: smooth;
+}
 .logo {
   font-weight: bolder;
   font-size: 36px;
