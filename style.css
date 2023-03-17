@@ -1,7 +1,14 @@
 body {
   font-family: "Noto Serif Japanese";
 }
-
+h1,
+h2,
+h3,
+h4,
+p,
+span {
+  font-family: "Noto Serif Japanese";
+}
 .logo {
   font-weight: bolder;
   font-size: 36px;
